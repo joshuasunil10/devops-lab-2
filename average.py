@@ -8,6 +8,8 @@ def calculate_average():
     # Calculate the average
     average = sum(numbers) / len(numbers)
 
+    maxNum = max(num in numbers)
+    minNum = min(num in numbers)
     return average
 
 # Call the function and print the result
